@@ -1,163 +1,282 @@
-<html>
-    <head>
-        <title>Portfolio | Bassant</title>
-        <link rel="stylesheet" href="style.css">
-        <script src="js.js"></script>
-    </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio | Bassant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
 
-    <body>
-        <header>
-            <div class="logo">.BT Portfolio</div>
-            <nav>
-                <a href="#home">Home</a>
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-            </nav>
-        </header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg fixed-top mb-2">
+  <div class="container">
+    <a class="logo navbar-brand">.BT Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-        <section id="home" class="home">
-            <div class="home-img">
-                <img src="images/bassant.jpg" alt="Profile Photo">
+<!-- Home -->
+<section id="home" class="d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 text-center home-img">
+        <img src="images/bassant.jpg" alt="Profile Photo">
+      </div>
+      <div class="col-md-6 home-text">
+        <h1>Hey I'm Bassant Tarek</h1>
+        <h2>I'm a
+          <span class="animated-words position-relative">
+            <span> Developer</span>
+            <span> Athlete</span>
+          </span>
+        </h2>
+        <div class="mt-3 social-links">
+          <a href="https://www.facebook.com/share/16HTdkBKVZ/?mibextid=qi2Omg"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://github.com/bassant2005"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/bassant-tarek-106a2031b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a class="download-btn" href="cv.pdf" download>Download CV</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section id="about" class="about">
+  <div>
+    <h2>- About Bassant -</h2><br>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I'm <strong>Bassant Tarek</strong>, a third-year student at the <strong>Faculty of Computers and Artificial Intelligence, Cairo University</strong>. I'm on my way to specialize in front-end development.
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outside the academic world, I'm also a dedicated athlete — a <strong>national discus thrower representing Egypt and Arab champion</strong>. My journey in athletics has taught me the value of focus, persistence, and discipline — qualities that I bring into my tech projects as well.
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy building intuitive, responsive web interfaces using <strong>HTML, CSS, JavaScript,</strong> and modern design tools like <strong>Canva and Figma</strong>. I'm passionate about creating digital solutions that are not only functional but also visually appealing.
+      <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether it's writing clean code, designing engaging content, or training for the next championship, I give my full energy and dedication. I'm always excited to grow, collaborate, and explore new challenges that blend creativity and technology.
+    </p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills">
+  <div class="container text-center">
+    <h2>- Technical Skills -</h2>
+    <div class="row g-4 mt-4">
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-brands fa-figma"></i>
+        <span>Figma (UI Design)</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 30%;">30%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-brands fa-html5"></i>
+        <span>HTML</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 80%;">80%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-brands fa-css3-alt"></i>
+        <span>CSS</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 80%;">80%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-solid fa-code"></i>
+        <span>C++</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 60%;">60%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-brands fa-js"></i>
+        <span>JavaScript</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 60%;">60%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fab fa-java"></i>
+        <span>Java</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 60%;">60%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-brands fa-python"></i>
+        <span>Python</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 60%;">60%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-solid fa-database"></i>
+        <span>SQL</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 50%;">50%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-solid fa-leaf"></i>
+        <span>Django</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 30%;">30%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Languages -->
+    <h2 class="mt-5">- Languages -</h2>
+    <div class="row g-4 mt-4">
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <span>English</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 75%;">75%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <span>Italian</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 40%;">40%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <span>Korean</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 30%;">30%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- work -->
+<section id="work">
+  <div class="work text-center pt-4 pb-4">
+    <div class="container">
+      <h2>- Work -</h2>
+      <p class="fs-5 text-white-50 fst-italic mb-3">
+        these are my best front-end projects
+      </p>
+
+     <div class="row align-items-center">
+      <!-- 1️⃣ Basic Calculator -->
+      <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+        <div class="box">
+          <div class="image-container">
+            <img
+              src="images/calc.png"
+              class="img-fluid"
+              alt="Calculator Project">
+            <div class="overlay">
+              <span>Preview</span>
+              <a href="#" class="btn-link" data-video-src="videos/calc.mp4">Play Video</a>
             </div>
-            <div class="home-text">
-                <h1>Hey I'm Bassant Tarek</h1>
-                <h2>I'm a
-                    <span class="animated-words">
-                        <span>Developer</span>
-                        <span>Designer</span>
-                        <span>Athlete</span>
-                    </span>
-                </h2>
-                <div>
-                    <a href="https://www.facebook.com/share/16HTdkBKVZ/?mibextid=qi2Omg"><img class="social-icons" src="images/facebook.png"></a>
-                    <a href="https://github.com/bassant2005"><img class="social-icons" src="images/github.png"></a>
-                    <a href="https://www.linkedin.com/in/bassant-tarek-106a2031b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img class="social-icons" src="images/linkedin.png"></a>
-                </div>
-                <a class="download-btn" href="cv.pdf" download>Download CV</a>    </div>
-        </section>
+          </div>
+          <h5>Basic Calculator</h5>
+          <p>live demo : <a href="https://bassant2005.github.io/calculator/">open</a></p>
+          <blockquote class="text-black-50">
+            A simple and user-friendly calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division...
+          </blockquote>
+        </div>
+      </div>
 
-        <section id="about" class="about">
-            <div>
-                <h2>- About Bassant -</h2>
-                <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I'm <strong>Bassant Tarek</strong>, a third-year student at the <strong>Faculty of Computers and Artificial Intelligence, Cairo University</strong>. I'm in my way to specialize in front-end development.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outside the academic world, I'm also a dedicated athlete - a <strong>national discus thrower representing Egypt and arab champion</strong>. My journey in athletics has taught me the value of focus, persistence, and discipline - qualities that I bring into my tech projects as well.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy building intuitive, responsive web interfaces using <strong>HTML, CSS, JavaScript,</strong>and modern design tools like <strong> Canva and Figma</strong>. I'm passionate about creating digital solutions that are not only functional but also visually appealing.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether it's writing clean code, designing engaging content, or training for the next championship, I give my full energy and dedication. I'm always excited to grow, collaborate, and explore new challenges that blend creativity and technology.
-                </p>
+      <!-- 2️⃣ Online Games Store -->
+      <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+        <div class="box">
+          <div class="image-container">
+            <img
+              src="images/games.png"
+              class="img-fluid"
+              alt="Games Project">
+            <div class="overlay">
+              <span>Preview</span>
+              <a href="#" class="btn-link" data-video-src="videos/game.mp4">Play Video</a>
             </div>
-        </section>
+          </div>
+          <h5>Online Games Store</h5>
+          <p>live demo : <a href="https://bassant2005.github.io/bootstrap-games-store/">open</a></p>
+          <blockquote class="text-black-50">
+            A dynamic web application that showcases a variety of video games with detailed descriptions, prices, and images. Users can browse, buy, and monitor their progress. Built with responsive design using HTML, CSS, and Bootstrap to ensure seamless use across all devices.
+          </blockquote>
+        </div>
+      </div>
 
-        <section class="skills" id="skills">
-            <h2>- Technical Skills -</h2>
-            <div class="skills-container">
-                <div class="skill">
-                    <img src="images/figma.png">
-                    <span>Figma(UI design)</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="30">30%</div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="images/html.png">
-                    <span>HTML</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="80">80%</div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="images/css.png">
-                    <span>CSS</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="70">70%</div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="images/c++.png">
-                    <span>C++</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="60">60%</div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="images/js.png">
-                    <span>JavaScript</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="50">50%</div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="images/java.png">
-                    <span>Java</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="60">60%</div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="images/python.png">
-                    <span>Python</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="60">60%</div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="images/sql.png">
-                    <span>Sql</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="50">50%</div>
-                    </div>
-                </div>
-
-                <div class="skill">
-                    <img src="images/django.png">
-                    <span>Django</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="30">30%</div>
-                    </div>
-                </div>
+      <!-- 3️⃣ Hangman -->
+      <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+        <div class="box">
+          <div class="image-container">
+            <img
+              src="images/hangman.png"
+              class="img-fluid"
+              alt="Hangman Project">
+            <div class="overlay">
+              <span>Preview</span>
+              <a href="#" class="btn-link" data-video-src="videos/hangman.mp4">Play Video</a>
             </div>
+          </div>
+          <h5>Hangman</h5>
+          <p>live demo : <a href="https://bassant2005.github.io/HangMan/">open</a></p>
+          <blockquote class="text-black-50">
+            An interactive word-guessing game available in both Arabic and English languages. It features two themes—dark mode and light mode—allowing users to choose their preferred visual style. Designed with a clean and responsive interface to provide a fun and accessible gaming experience across all devices.
+          </blockquote>
+        </div>
+      </div>
+    </div>
 
-            <h2>- Languages -</h2>
-            <div class="skills-container">
-                <div class="skill">
-                    <img src="images/English.png">
-                    <span>English</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="75">75%</div>
-                    </div>
-                </div>
+    </div>
+  </div>
+</section>
 
-                <div class="skill">
-                    <img src="images/italy.png">
-                    <span>Italian</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="50">50%</div>
-                    </div>
-                </div>
+<!-- Video Modal Popup -->
+<div id="video-modal" style="display: none;">
+  <div id="video-modal-content">
+    <video id="modal-video" controls autoplay style="max-width: 90vw; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+      <source src="" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
 
-                <div class="skill">
-                    <img src="images/korea.png">
-                    <span>Korean</span>
-                    <div class="bar">
-                        <div class="progress" data-percent="30">30%</div>
-                    </div>
-                </div>
-            </div>
-        </section>
+<!-- Footer -->
+<footer>
+  &copy; 2025 Bassant Tarek. All rights reserved.
+  <div>
+    <p>If you’d like to reach me, click the link below:
+      <a href="mailto:basant.tareq.2005@gmail.com">
+       basant.tareq.2005@gmail.com
+      </a>
+    </p>
+  </div>
+</footer>
 
-    </body>
-
-    <footer>
-        &copy; 2025 Bassant Tarek. All rights reserved.
-    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/js.js"></script>
+</body>
 </html>

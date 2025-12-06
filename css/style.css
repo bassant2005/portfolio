@@ -299,11 +299,11 @@ footer {
 
   /* Navbar text */
   .nav-link {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .nav-link:hover {
-    font-size: 17px;
+    font-size: 22px;
   }
 
   /* Home Section */
@@ -314,12 +314,12 @@ footer {
   }
 
   .home-text h1 {
-    font-size: 28px;
+    font-size: 32px;
     text-align: center;
   }
 
   .home-text h2 {
-    font-size: 22px;
+    font-size: 30px;
     text-align: center;
   }
 
@@ -337,13 +337,13 @@ footer {
 
   /* Social Icons */
   a i {
-    font-size: 24px;
+    font-size: 27px;
     margin-right: 10px;
   }
 
   /* About Text */
   .about p {
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
   }
 
@@ -355,13 +355,13 @@ footer {
   }
 
   .overlay {
-    font-size: 15px;
+    font-size: 20px;
     padding: 10px;
   }
 
   .overlay .btn-link {
     padding: 8px 15px;
-    font-size: 14px;
+    font-size: 20px;
   }
 
   /* Video Modal */
@@ -371,34 +371,6 @@ footer {
   }
 
   #video-modal-close {
-    font-size: 25px;
-  }
-}
-
-/* For very small phones (max 480px) */
-@media (max-width: 480px) {
-
-  .home-img img {
-    width: 160px;
-  }
-
-  .home-text h1 {
-    font-size: 24px;
-  }
-
-  .home-text h2 {
-    font-size: 18px;
-  }
-
-  .about p {
-    font-size: 16px;
-  }
-
-  .nav-link {
-    font-size: 14px;
-  }
-
-  .overlay {
-    font-size: 14px;
+    font-size: 30px;
   }
 }

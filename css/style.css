@@ -5,20 +5,11 @@
   --accent-color: #D2691E;
 }
 
-/* ===== Global Styles ===== */
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
-}
-
 /* Section Defaults */
 section {
   min-height: 100vh;
   background: linear-gradient(to top, var(--secondary-color), #D4C9BE);
   padding: 50px 10%;
-  box-sizing: border-box;
   color: var(--primary-color);
 }
 
@@ -285,92 +276,9 @@ footer {
   font-size: 12px;
 }
 
-/* ====================== */
-/*      MOBILE STYLES     */
-/* ====================== */
-
-/* For screens 768px and smaller (tablets + phones) */
-@media (max-width: 768px) {
-
-  /* General spacing */
-  section {
-    padding: 40px 5%;
-  }
-
-  /* Navbar text */
-  .nav-link {
-    font-size: 20px;
-  }
-
-  .nav-link:hover {
-    font-size: 22px;
-  }
-
-  /* Home Section */
-  .home-img img {
-    width: 200px;
-    margin: 0 auto;
-    display: block;
-  }
-
-  .home-text h1 {
-    font-size: 32px;
-    text-align: center;
-  }
-
-  .home-text h2 {
-    font-size: 30px;
-    text-align: center;
-  }
-
-  /* Animated Words — center them */
-  .animated-words {
-    position: relative;
-    height: 30px;
-    text-align: center;
-  }
-
-  .animated-words span {
-    left: 50%;
-    transform: translateX(-50%);
-  }
-
-  /* Social Icons */
-  a i {
-    font-size: 27px;
-    margin-right: 10px;
-  }
-
-  /* About Text */
-  .about p {
-    font-size: 22px;
-    text-align: center;
-  }
-
-  /* Work Boxes */
-  .work .box {
-    height: auto;
-    padding: 20px;
-    margin-bottom: 25px;
-  }
-
-  .overlay {
-    font-size: 20px;
-    padding: 10px;
-  }
-
-  .overlay .btn-link {
-    padding: 8px 15px;
-    font-size: 20px;
-  }
-
-  /* Video Modal */
-  #video-modal-content {
-    max-width: 95vw;
-    max-height: 60vh;
-  }
-
-  #video-modal-close {
-    font-size: 30px;
+@media (max-width: 500px) {
+  .toggler-icon {
+    font-size: 50px; /* control size here */
+    color: var(--primary-color);
   }
 }

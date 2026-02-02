@@ -1,21 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- ===================== META & TITLE ===================== -->
   <meta charset="UTF-8">
   <title>Portfolio | Bassant</title>
+
+  <!-- ===================== EXTERNAL LIBRARIES ===================== -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- ===================== CUSTOM CSS ===================== -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<!-- Navbar -->
+<!-- ===================== NAVBAR ===================== -->
 <nav class="navbar navbar-expand-lg fixed-top mb-2">
   <div class="container">
+
+    <!-- Logo -->
     <a class="logo navbar-brand">.BT Portfolio</a>
+
+    <!-- Mobile Toggle Button -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
+      <i class="fa-solid fa-bars fa-2x toggler-icon"></i>
     </button>
+
+    <!-- Navbar Links -->
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
@@ -24,54 +36,84 @@
         <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
       </ul>
     </div>
+
   </div>
 </nav>
 
-<!-- Home -->
+<!-- ===================== HOME SECTION ===================== -->
 <section id="home" class="d-flex align-items-center">
   <div class="container">
     <div class="row align-items-center">
+
+      <!-- Profile Image -->
       <div class="col-md-6 text-center home-img">
         <img src="images/bassant.jpg" alt="Profile Photo">
       </div>
+
+      <!-- Intro Text -->
       <div class="col-md-6 home-text">
         <h1>Hey I'm Bassant Tarek</h1>
+
         <h2>I'm a
           <span class="animated-words position-relative">
             <span> Developer</span>
             <span> Athlete</span>
           </span>
         </h2>
+
+        <!-- Social Media Links -->
         <div class="mt-3 social-links">
-          <a href="https://www.facebook.com/share/16HTdkBKVZ/?mibextid=qi2Omg"><i class="fa-brands fa-facebook"></i></a>
-          <a href="https://github.com/bassant2005"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/in/bassant-tarek-106a2031b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/share/16HTdkBKVZ/?mibextid=qi2Omg">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+
+          <a href="https://github.com/bassant2005">
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/bassant-tarek-106a2031b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
         </div>
+
+        <!-- Download CV Button -->
         <a class="download-btn" href="cv.pdf" download>Download CV</a>
       </div>
+
     </div>
   </div>
 </section>
 
-<!-- About -->
+<!-- ===================== ABOUT SECTION ===================== -->
 <section id="about" class="about">
   <div>
     <h2>- About Bassant -</h2><br>
+
     <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I'm <strong>Bassant Tarek</strong>, a third-year student at the <strong>Faculty of Computers and Artificial Intelligence, Cairo University</strong>. I'm on my way to specialize in front-end development.
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outside the academic world, I'm also a dedicated athlete — a <strong>national discus thrower representing Egypt and Arab champion</strong>. My journey in athletics has taught me the value of focus, persistence, and discipline — qualities that I bring into my tech projects as well.
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy building intuitive, responsive web interfaces using <strong>HTML, CSS, JavaScript,</strong> and modern design tools like <strong>Canva and Figma</strong>. I'm passionate about creating digital solutions that are not only functional but also visually appealing.
-      <br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether it's writing clean code, designing engaging content, or training for the next championship, I give my full energy and dedication. I'm always excited to grow, collaborate, and explore new challenges that blend creativity and technology.
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I'm <strong>Bassant Tarek</strong>, a student at the
+      <strong>Faculty of Computers and Artificial Intelligence, Cairo University</strong>.
+      I'm on my way to specialize in front-end development.
+      <br><br>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outside the academic world, I'm also a dedicated athlete —
+      a <strong>national discus thrower representing Egypt and Arab champion</strong>.
+      My journey in athletics has taught me the value of focus, persistence, and discipline.
+      <br><br>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy building intuitive, responsive web interfaces using
+      <strong>HTML, CSS, JavaScript,</strong> and modern design tools like <strong>Canva and Figma</strong>.
+      <br><br>
+
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether it's writing clean code, designing engaging content, or training for the next championship,
+      I give my full energy and dedication.
     </p>
   </div>
 </section>
 
-<!-- Skills -->
+<!-- ===================== SKILLS SECTION ===================== -->
 <section id="skills">
   <div class="container text-center">
+
     <h2>- Technical Skills -</h2>
     <div class="row g-4 mt-4">
 
@@ -79,7 +121,7 @@
         <i class="fa-brands fa-figma"></i>
         <span>Figma (UI Design)</span>
         <div class="progress mt-2">
-          <div class="progress-bar" style="width: 30%;">30%</div>
+          <div class="progress-bar" style="width: 70%;">70%</div>
         </div>
       </div>
 
@@ -140,15 +182,32 @@
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-brands fa-react"></i>
+        <span>React</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 70%;">70%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <i class="fa-brands fa-bootstrap"></i>
+        <span>Bootstrap</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 80%;">80%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <i class="fa-solid fa-leaf"></i>
         <span>Django</span>
         <div class="progress mt-2">
           <div class="progress-bar" style="width: 30%;">30%</div>
         </div>
       </div>
+
     </div>
 
-    <!-- Languages -->
+    <!-- ========== LANGUAGES ========== -->
     <h2 class="mt-5">- Languages -</h2>
     <div class="row g-4 mt-4">
 
@@ -160,124 +219,161 @@
       </div>
 
       <div class="col-lg-4 col-md-6 col-sm-12">
+        <span>Arabic</span>
+        <div class="progress mt-2">
+          <div class="progress-bar" style="width: 95%;">95%</div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
         <span>Italian</span>
         <div class="progress mt-2">
           <div class="progress-bar" style="width: 40%;">40%</div>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <span>Korean</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 30%;">30%</div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
 
-<!-- work -->
+<!-- ===================== WORK SECTION ===================== -->
 <section id="work">
   <div class="work text-center pt-4 pb-4">
     <div class="container">
+
       <h2>- Work -</h2>
       <p class="fs-5 text-white-50 fst-italic mb-3">
-        these are my best front-end projects
+        These are my best front-end projects
       </p>
 
-     <div class="row align-items-center">
-      <!-- 1️⃣ Basic Calculator -->
-      <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
-        <div class="box">
-          <div class="image-container">
-            <img
-              src="images/calc.png"
-              class="img-fluid"
-              alt="Calculator Project">
-            <div class="overlay">
-              <span>Preview</span>
-              <a href="#" class="btn-link" data-video-src="videos/calc.mp4">Play Video</a>
+      <div class="row align-items-center">
+
+        <!-- ===== Project 1: Calculator ===== -->
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+          <div class="box">
+            <div class="image-container">
+              <img src="images/calc.png" class="img-fluid" alt="Calculator Project">
+              <div class="overlay">
+                <span>Preview</span>
+                <a href="#" class="btn-link" data-video-src="videos/calc.mp4">Play Video</a>
+              </div>
             </div>
+
+            <h5>Basic Calculator</h5>
+            <p>Live demo : <a href="https://bassant2005.github.io/calculator/">open</a></p>
+            <blockquote class="text-black-50">
+              A simple and user-friendly calculator that performs basic arithmetic operations.
+            </blockquote>
           </div>
-          <h5>Basic Calculator</h5>
-          <p>live demo : <a href="https://bassant2005.github.io/calculator/">open</a></p>
-          <blockquote class="text-black-50">
-            A simple and user-friendly calculator that performs basic arithmetic operations such as addition, subtraction, multiplication, and division...
-          </blockquote>
+        </div>
+
+        <!-- ===== Project 2: Hangman ===== -->
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+          <div class="box">
+            <div class="image-container">
+              <img src="images/hangman.png" class="img-fluid" alt="Hangman Project">
+              <div class="overlay">
+                <span>Preview</span>
+                <a href="#" class="btn-link" data-video-src="videos/hangman.mp4">Play Video</a>
+              </div>
+            </div>
+
+            <h5>Hangman</h5>
+            <p>Live demo : <a href="https://bassant2005.github.io/HangMan/">open</a></p>
+            <blockquote class="text-black-50">
+              Word guessing game in Arabic & English with light and dark mode.
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- ===== Project 3: Games Store ===== -->
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+          <div class="box">
+            <div class="image-container">
+              <img src="images/games.png" class="img-fluid" alt="Games Project">
+              <div class="overlay">
+                <span>Preview</span>
+                <a href="#" class="btn-link" data-video-src="videos/game.mp4">Play Video</a>
+              </div>
+            </div>
+
+            <h5>Online Games Store</h5>
+            <p>Live demo : <a href="https://bassant2005.github.io/bootstrap-games-store/">open</a></p>
+            <blockquote class="text-black-50">
+              A responsive games store built with HTML, CSS, and Bootstrap.
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- ===== Project 4 Online Games Platform ===== -->
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+          <div class="box">
+            <div class="image-container">
+              <img src="images/games website.png" class="img-fluid" alt="Online Games Platform">
+              <div class="overlay">
+                <span>Preview</span>
+                <a href="#" class="btn-link" data-video-src="videos/games.mp4">Play Video</a>
+              </div>
+            </div>
+
+            <h5>Online Games Platform</h5>
+            <p>Live demo : <a href="https://bassant2005.github.io/react-online-games-website/">open</a></p>
+            <blockquote class="text-black-50">
+              A React-based web platform where users can play games online, featuring Tic-Tac-Toe, Wordle, and a Memory Game with different levels, responsive design using Bootstrap, and game progress saved in local storage.
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- ===== Project 5 Online Flowers store ===== -->
+        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
+          <div class="box">
+            <div class="image-container">
+              <img src="images/flowers.png" class="img-fluid" alt="Online flowers store">
+              <div class="overlay">
+                <span>Preview</span>
+                <a href="#" class="btn-link" data-video-src="videos/flowers.mp4">Play Video</a>
+              </div>
+            </div>
+
+            <h5>Online flowers store</h5>
+            <p>Live demo : <a href="https://bassant2005.github.io/golden-nile-lily/">open</a></p>
+            <blockquote class="text-black-50">
+              A website where users can buy flowers online, responsive design using Bootstrap.
+            </blockquote>
+          </div>
         </div>
       </div>
-
-      <!-- 2️⃣ Online Games Store -->
-      <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
-        <div class="box">
-          <div class="image-container">
-            <img
-              src="images/games.png"
-              class="img-fluid"
-              alt="Games Project">
-            <div class="overlay">
-              <span>Preview</span>
-              <a href="#" class="btn-link" data-video-src="videos/game.mp4">Play Video</a>
-            </div>
-          </div>
-          <h5>Online Games Store</h5>
-          <p>live demo : <a href="https://bassant2005.github.io/bootstrap-games-store/">open</a></p>
-          <blockquote class="text-black-50">
-            A dynamic web application that showcases a variety of video games with detailed descriptions, prices, and images. Users can browse, buy, and monitor their progress. Built with responsive design using HTML, CSS, and Bootstrap to ensure seamless use across all devices.
-          </blockquote>
-        </div>
-      </div>
-
-      <!-- 3️⃣ Hangman -->
-      <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
-        <div class="box">
-          <div class="image-container">
-            <img
-              src="images/hangman.png"
-              class="img-fluid"
-              alt="Hangman Project">
-            <div class="overlay">
-              <span>Preview</span>
-              <a href="#" class="btn-link" data-video-src="videos/hangman.mp4">Play Video</a>
-            </div>
-          </div>
-          <h5>Hangman</h5>
-          <p>live demo : <a href="https://bassant2005.github.io/HangMan/">open</a></p>
-          <blockquote class="text-black-50">
-            An interactive word-guessing game available in both Arabic and English languages. It features two themes—dark mode and light mode—allowing users to choose their preferred visual style. Designed with a clean and responsive interface to provide a fun and accessible gaming experience across all devices.
-          </blockquote>
-        </div>
-      </div>
-    </div>
-
     </div>
   </div>
 </section>
 
-<!-- Video Modal Popup -->
+<!-- ===================== VIDEO MODAL ===================== -->
 <div id="video-modal" style="display: none;">
   <div id="video-modal-content">
-    <video id="modal-video" controls autoplay style="max-width: 90vw; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
+    <video id="modal-video" controls autoplay
+           style="max-width: 90vw; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
       <source src="" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
   </div>
 </div>
 
-<!-- Footer -->
+<!-- ===================== FOOTER ===================== -->
 <footer>
   &copy; 2025 Bassant Tarek. All rights reserved.
   <div>
-    <p>If you’d like to reach me, click the link next:
+    <p>
+      If you’d like to reach me, click here:
       <a href="mailto:basant.tareq.2005@gmail.com">
-       basant.tareq.2005@gmail.com
+        basant.tareq.2005@gmail.com
       </a>
     </p>
   </div>
 </footer>
 
+<!-- ===================== SCRIPTS ===================== -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/js.js"></script>
+
 </body>
 </html>
-

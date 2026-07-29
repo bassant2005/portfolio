@@ -1,361 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- ===================== META & TITLE ===================== -->
   <meta charset="UTF-8">
-  <title>Portfolio | Bassant</title>
-
-  <!-- ===================== EXTERNAL LIBRARIES ===================== -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <!-- ===================== CUSTOM CSS ===================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bassant Tarek Abd-Alrahman — Developer Portfolio</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
 
-<!-- ===================== NAVBAR ===================== -->
-<nav class="navbar navbar-expand-lg fixed-top mb-2">
-  <div class="container">
-
-    <!-- Logo -->
-    <a class="logo navbar-brand">.BT Portfolio</a>
-
-    <!-- Mobile Toggle Button -->
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <i class="fa-solid fa-bars fa-2x toggler-icon"></i>
-    </button>
-
-    <!-- Navbar Links -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-        <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
-      </ul>
+<header>
+  <nav>
+    <div class="nav-name">Bassant Tarek Abd-Alrahman </div>
+    <div class="nav-links">
+      <a href="#work">work</a>
+      <a href="#skills">skills</a>
+      <a href="#experience">experience</a>
+      <a href="#contact">contact</a>
     </div>
+    <button class="nav-toggle" aria-label="Menu">☰</button>
+  </nav>
+</header>
 
-  </div>
-</nav>
+<main class="wrap">
 
-<!-- ===================== HOME SECTION ===================== -->
-<section id="home" class="d-flex align-items-center p-3">
-  <div class="container">
-    <div class="row align-items-center flex-column-reverse flex-md-row">
-      <!-- Profile Image -->
-      <div class="col-md-12 col-lg-5 text-center home-img">
-        <img src="images/bassantot.JPG" alt="Profile Photo">
-      </div>
-
-      <!-- Intro Text -->
-      <div class="col-md-12 col-lg-5 text-center home-text">
-        <h1>Hey I'm Bassant Tarek</h1>
-        <h2>I'm a
-          <span class="animated-words position-relative">
-            <span> Developer</span>
-            <span> Athlete</span>
-          </span>
-        </h2>
-        <div class="mt-3 social-links">
-          <!-- social icons -->
-        </div>
-        <a class="download-btn" href="cv.pdf" download>Download CV</a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== ABOUT SECTION ===================== -->
-<section id="about" class="about">
-  <div>
-    <h2>- About Bassant -</h2><br>
-
-    <p>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hello! I'm <strong>Bassant Tarek</strong>, a student at the
-      <strong>Faculty of Computers and Artificial Intelligence, Cairo University</strong>.
-      I'm on my way to specialize in front-end development.
-      <br><br>
-
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outside the academic world, I'm also a dedicated athlete —
-      a <strong>national discus thrower representing Egypt and Arab champion</strong>.
-      My journey in athletics has taught me the value of focus, persistence, and discipline.
-      <br><br>
-
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I enjoy building intuitive, responsive web interfaces using
-      <strong>HTML, CSS, JavaScript,</strong> and modern design tools like <strong>Canva and Figma</strong>.
-      <br><br>
-
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Whether it's writing clean code, designing engaging content, or training for the next championship,
-      I give my full energy and dedication.
+  <!-- ===== HERO ===== -->
+  <section class="hero" style="border-bottom:1px solid var(--line);">
+    <span class="hero-status"><span class="dot"></span>Open to opportunities</span>
+    <h1>Bassant Tarek Abd-Alrahman <span class="cursor">&nbsp;</span></h1>
+    <div class="hero-role">Software Engineer — Fullstack</div>
+    <p class="hero-bio">
+      I'm a senior student af faculty of computers and ai , Cairo university
+      during my studying years i have made number of websites as assignments with my teammates so you can call me as web developer
+      ,but also i spent some time learning data and data analysis work
+      ,and now i'm starting my way in app development using flutter
     </p>
-  </div>
-</section>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="#work">View work</a>
+      <a class="btn btn-ghost" href="#contact">Get in touch</a>
+      <a class="btn btn-ghost" href="[link to resume.pdf]" target="_blank">Resume</a>
+    </div>
+  </section>
 
-<!-- ===================== SKILLS SECTION ===================== -->
-<section id="skills">
-  <div class="container text-center">
-
-    <h2>- Technical Skills -</h2>
-    <div class="row g-4 mt-4">
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-brands fa-figma"></i>
-        <span>Figma (UI Design)</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 70%;">70%</div>
-        </div>
+  <!-- ===== WORK ===== -->
+  <section id="work">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">~/projects</span>
+        <h2>Selected work</h2>
       </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-brands fa-html5"></i>
-        <span>HTML</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 80%;">80%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-brands fa-css3-alt"></i>
-        <span>CSS</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 80%;">80%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-solid fa-code"></i>
-        <span>C++</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 60%;">60%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-brands fa-js"></i>
-        <span>JavaScript</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 60%;">60%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fab fa-java"></i>
-        <span>Java</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 60%;">60%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-brands fa-python"></i>
-        <span>Python</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 60%;">60%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-solid fa-database"></i>
-        <span>SQL</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 50%;">50%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-brands fa-react"></i>
-        <span>React</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 70%;">70%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-brands fa-bootstrap"></i>
-        <span>Bootstrap</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 80%;">80%</div>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <i class="fa-solid fa-leaf"></i>
-        <span>Django</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 30%;">30%</div>
-        </div>
-      </div>
-
     </div>
 
-    <!-- ========== LANGUAGES ========== -->
-    <h2 class="mt-5">- Languages -</h2>
-    <div class="row g-4 mt-4">
+    <div class="project-grid">
 
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <span>English</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 75%;">75%</div>
+      <!-- Project card — duplicate this block for each project -->
+      <div class="project-card">
+        <div class="card-path">~/projects/project-one</div>
+        <div class="card-visual">
+          <img src="images/Screenshot 2026-07-29 195300.png" height="782" width="1536"/>
+          </div>
+        <h3>Littlest</h3>
+        <p>a single page pets shop simulation website</p>
+        <div class="tag-row">
+          <span class="tag">[JS]</span>
+          <span class="tag">[PHP]</span>
+          <span class="tag">[SQL]</span>
+        </div>
+        <div class="card-links">
+          <a href="https://littlest.infinityfreeapp.com/#add" target="_blank">Live →</a>
+          <a href="https://github.com/HabebaHosam/web2" target="_blank">Code →</a>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <span>Arabic</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 95%;">95%</div>
+      <div class="project-card">
+        <div class="card-path">~/projects/project-two</div>
+        <div class="card-visual"><img src="images/flower.png" height="747" width="1533"/></div>
+        <h3>Flowers Shop</h3>
+        <p>A simple Flowers Shop web application. It allows users to browse flowers</p>
+        <div class="tag-row">
+          <span class="tag">[Html]</span>
+          <span class="tag">[Css]</span>
+          <span class="tag">[React]</span>
+          <span class="tag">[JS]</span>
+          <span class="tag">[Bootstrap]</span>
+        </div>
+        <div class="card-links">
+          <a href="https://bassant2005.github.io/golden-nile-lily/" target="_blank">Live →</a>
+          <a href="https://github.com/bassant2005/golden-nile-lily" target="_blank">Code →</a>
         </div>
       </div>
 
-      <div class="col-lg-4 col-md-6 col-sm-12">
-        <span>Italian</span>
-        <div class="progress mt-2">
-          <div class="progress-bar" style="width: 40%;">40%</div>
+      <div class="project-card">
+        <div class="card-path">~/projects/project-three</div>
+        <div class="card-visual"><img src="images/games.png" height="747" width="1536"/></div>
+        <h3>Play online</h3>
+        <p>This project simulates an online games website with some classic games </p>
+        <div class="tag-row">
+          <span class="tag">[Html]</span>
+          <span class="tag">[Css]</span>
+          <span class="tag">[JS]</span>
+          <span class="tag">[Bootstrap]</span>
+        </div>
+        <div class="card-links">
+          <a href="https://bassant2005.github.io/react-online-games-website/#/" target="_blank">Live →</a>
+          <a href="https://github.com/bassant2005/react-online-games-website" target="_blank">Code →</a>
         </div>
       </div>
+
+      <div class="project-card">
+      <div class="card-path">~/projects/project-four</div>
+      <div class="card-visual"><img src="images/store.png" height="718" width="1532"/></div>
+      <h3>Games store</h3>
+      <p>A basic online games simulation store</p>
+      <div class="tag-row">
+        <span class="tag">[Html]</span>
+        <span class="tag">[Css]</span>
+        <span class="tag">[Bootstrap]</span>
+      </div>
+      <div class="card-links">
+        <a href="[live demo url]" target="_blank">Live →</a>
+        <a href="[github url]" target="_blank">Code →</a>
+      </div>
+    </div>
 
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===================== WORK SECTION ===================== -->
-<section id="work">
-  <div class="work text-center pt-4 pb-4">
-    <div class="container">
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="section-head">
+      <div>
+        <span class="eyebrow">~/skills</span>
+        <h2>Toolbox</h2>
+      </div>
+    </div>
 
-      <h2>- Work -</h2>
-      <p class="fs-5 text-white-50 fst-italic mb-3">
-        These are my best front-end projects
-      </p>
-
-      <div class="row align-items-center">
-
-        <!-- ===== Project 1: Calculator ===== -->
-        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
-          <div class="box">
-            <div class="image-container">
-              <img src="images/calc.png" class="img-fluid" alt="Calculator Project">
-              <div class="overlay">
-                <span>Preview</span>
-                <a href="#" class="btn-link" data-video-src="videos/calc.mp4">Play Video</a>
-              </div>
-            </div>
-
-            <h5>Basic Calculator</h5>
-            <p>Live demo : <a href="https://bassant2005.github.io/calculator/">open</a></p>
-            <blockquote class="text-black-50">
-              A simple and user-friendly calculator that performs basic arithmetic operations.
-            </blockquote>
-          </div>
+    <div class="skills-grid">
+      <div class="skill-cat">
+        <h4>Coding languages</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">[JavaScript]</span>
+          <span class="skill-tag">[C++]</span>
+          <span class="skill-tag">[Python]</span>
+          <span class="skill-tag">[Java]</span>
+          <span class="skill-tag">[SQL]</span>
         </div>
-
-        <!-- ===== Project 2: Hangman ===== -->
-        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
-          <div class="box">
-            <div class="image-container">
-              <img src="images/hangman.png" class="img-fluid" alt="Hangman Project">
-              <div class="overlay">
-                <span>Preview</span>
-                <a href="#" class="btn-link" data-video-src="videos/hangman.mp4">Play Video</a>
-              </div>
-            </div>
-
-            <h5>Hangman</h5>
-            <p>Live demo : <a href="https://bassant2005.github.io/HangMan/">open</a></p>
-            <blockquote class="text-black-50">
-              Word guessing game in Arabic & English with light and dark mode.
-            </blockquote>
-          </div>
-        </div>
-
-        <!-- ===== Project 3: Games Store ===== -->
-        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
-          <div class="box">
-            <div class="image-container">
-              <img src="images/games.png" class="img-fluid" alt="Games Project">
-              <div class="overlay">
-                <span>Preview</span>
-                <a href="#" class="btn-link" data-video-src="videos/game.mp4">Play Video</a>
-              </div>
-            </div>
-
-            <h5>Online Games Store</h5>
-            <p>Live demo : <a href="https://bassant2005.github.io/bootstrap-games-store/">open</a></p>
-            <blockquote class="text-black-50">
-              A responsive games store built with HTML, CSS, and Bootstrap.
-            </blockquote>
-          </div>
-        </div>
-
-        <!-- ===== Project 4 Online Games Platform ===== -->
-        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
-          <div class="box">
-            <div class="image-container">
-              <img src="images/games website.png" class="img-fluid" alt="Online Games Platform">
-              <div class="overlay">
-                <span>Preview</span>
-                <a href="#" class="btn-link" data-video-src="videos/games.mp4">Play Video</a>
-              </div>
-            </div>
-
-            <h5>Online Games Platform</h5>
-            <p>Live demo : <a href="https://bassant2005.github.io/react-online-games-website/">open</a></p>
-            <blockquote class="text-black-50">
-              A React-based web platform where users can play games online, featuring Tic-Tac-Toe, Wordle, and a Memory Game with different levels, responsive design using Bootstrap, and game progress saved in local storage.
-            </blockquote>
-          </div>
-        </div>
-
-        <!-- ===== Project 5 Online Flowers store ===== -->
-        <div class="col-lg-4 col-md-6 col-sm-12 text-center mb-2">
-          <div class="box">
-            <div class="image-container">
-              <img src="images/flowers.png" class="img-fluid" alt="Online flowers store">
-              <div class="overlay">
-                <span>Preview</span>
-                <a href="#" class="btn-link" data-video-src="videos/flowers.mp4">Play Video</a>
-              </div>
-            </div>
-
-            <h5>Online flowers store</h5>
-            <p>Live demo : <a href="https://bassant2005.github.io/golden-nile-lily/">open</a></p>
-            <blockquote class="text-black-50">
-              A website where users can buy flowers online, responsive design using Bootstrap.
-            </blockquote>
-          </div>
+      </div>
+      <div class="skill-cat">
+        <h4>Frameworks</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">[React]</span>
+          <span class="skill-tag">[PHP]</span>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- ===================== FOOTER ===================== -->
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="contact">
+    <span class="eyebrow">~/contact</span>
+    <h2>Let's build something.</h2>
+    <p>it will be waiting for you</p>
+    <div class="contact-links">
+      <a href="mailto:[you@example.com]">[you@example.com]</a>
+      <a href="[github url]" target="_blank">GitHub</a>
+      <a href="[linkedin url]" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
 <footer>
-  &copy; 2025 Bassant Tarek. All rights reserved.
-  <div>
-    <p>
-      If you’d like to reach me, click here:
-      <a href="mailto:basant.tareq.2005@gmail.com">
-        basant.tareq.2005@gmail.com
-      </a>
-    </p>
-  </div>
+  © <span id="year"></span> Bassant Tarek. Built from scratch.
 </footer>
-<!-- ===================== VIDEO MODAL ===================== -->
-<div id="video-modal" style="display: none;">
-  <div id="video-modal-content">
-    <video id="modal-video" controls autoplay
-           style="max-width: 90vw; max-height: 80vh; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">
-      <source src="" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-
-<!-- ===================== SCRIPTS ===================== -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/js.js"></script>
-
 </body>
 </html>

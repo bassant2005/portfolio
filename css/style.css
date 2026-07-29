@@ -226,7 +226,8 @@ section:last-of-type { border-bottom: none; }
 .card-visual {
   width: 100%;
   height: 220px;
-  overflow: hidden;
+  position: relative; /* Ensures absolute children or overflow stay contained */
+  overflow: hidden;   /* Clips anything spilling out */
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
 }
@@ -235,7 +236,11 @@ section:last-of-type { border-bottom: none; }
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top center; /* Keeps the top of your screenshots visible */
   display: block;
+  position: absolute;          /* Locks the image strictly inside the box */
+  top: 0;
+  left: 0;
   transition: transform 0.4s ease;
 }
 
